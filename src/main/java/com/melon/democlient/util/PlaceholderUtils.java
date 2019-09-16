@@ -14,7 +14,7 @@ public class PlaceholderUtils {
 
     public static final String PLACEHOLDER_SUFFIX = "}";
 
-    public static String resolvePlaceholders(String src, Map<String,String> parameter){
+    public static String resolvePlaceholders(String src, Map<String, String> parameter) {
 
         if (src == null || parameter.isEmpty()) {
 
@@ -45,5 +45,4 @@ public class PlaceholderUtils {
         }
         return stringBuffer.toString();
     }
-
 }
